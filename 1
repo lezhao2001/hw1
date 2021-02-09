@@ -1,0 +1,72 @@
+from math import*
+from matplotlib import pyplot as plt
+
+x=[i/10 for i in range(3)]
+y=[exp(-X) for X in x]
+
+
+
+
+
+
+plt.plot(x,y)
+plt.plot('x')
+plt.plot('exp(-x)')
+
+
+
+
+
+
+x=[i/10 for i in range(3)]
+y=[1 for X in x]
+
+plt.plot(x,y)
+plt.plot('x')
+plt.plot('1')
+
+
+
+x=[i/10 for i in range(3)]
+y=[exp(-X) for X in x]
+
+plt.plot(x,y)
+plt.plot('x')
+plt.plot('exp(-x)')
+
+
+
+def load(data):
+    x,y=[],[]
+    with open(data) as file:
+         lines=file.readlines()
+         for line in file:
+             values[v for v in line.split()]
+    return x,y
+    
+x,y=load('data.txt')
+
+print(x)
+print(y)
+
+plt.plot(x,y)
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
